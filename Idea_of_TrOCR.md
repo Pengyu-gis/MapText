@@ -24,7 +24,7 @@ The TrOCR model combines the transformer's capabilities in understanding both im
 #### 4. Text Generation by Decoder
 - Text generation begins with a special start token and proceeds auto-regressively:
   $y_t = \text{Decoder}(y_{t-1}, E)$
-- Each token $ y_t$ is predicted based on the entire sequence of previously generated tokens and the encoder output $E$. The decoder stops generating further tokens once it predicts a special end token.
+- Each token $y_t$ is predicted based on the entire sequence of previously generated tokens and the encoder output $E$. The decoder stops generating further tokens once it predicts a special end token.
 
 #### 5. Training
 - The TrOCR model is trained end-to-end, optimizing both the encoder and the decoder jointly to minimize the difference between the predicted text and the actual text in the training images.

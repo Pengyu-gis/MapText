@@ -7,7 +7,7 @@ Made *Pengyu Chen* and *Xuezi Bi*.    |   Contact: pengyuchen2002@gmail.com
 1. For Detection task, we choose to use EasyOCR.
 2. For Recognition task, we choose the TrOCR model.
 
-PS: For Data downloading, please check:https://github.com/Pengyu-gis/MapText/blob/main/code/data_installation.ipynb <br>
+PS: For Data downloading, please check: [data downloading notebook](https://github.com/Pengyu-gis/MapText/blob/main/code/data_installation.ipynb) <br><br>
 All notebook in this repo can run directly after connect google drive.
 
 <br>
